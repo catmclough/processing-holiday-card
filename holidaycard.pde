@@ -134,11 +134,6 @@ void draw()
   textSize(10);
   text("(click to make it snow)", width/2, 280);
 
-  //  float x = mouseX;
-  //  float y = mouseY;
-  //
-  //  System.out.println("X: " + x + " Y: " + y);
-
   world.step();
 
   // now have it draw itself to the screen
